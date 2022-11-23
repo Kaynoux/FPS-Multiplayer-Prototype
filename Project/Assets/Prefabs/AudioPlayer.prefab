@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7508944325579525733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7508944325579525723}
+  - component: {fileID: 7508944325579525722}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7508944325579525723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7508944325579525733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.432617, y: 21.023438, z: 25.101562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7508944325579525722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7508944325579525733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f16cb95a1f2fdb4ea5dbb34549adc2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 0
+  sounds:
+  - name: deagleShoot
+    clip: {fileID: 8300000, guid: 72cb95ac0409cff4491b7b10df6db012, type: 3}
+    beginVolume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: deagleReload
+    clip: {fileID: 8300000, guid: f029136b7d6b8bf40b576e4f41f72a8b, type: 3}
+    beginVolume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: m4Shoot
+    clip: {fileID: 8300000, guid: 5ab60847da4a9af42afbebca5a6eb364, type: 3}
+    beginVolume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: m4Reload
+    clip: {fileID: 8300000, guid: 2f5f73a011fade642a9495b041198101, type: 3}
+    beginVolume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
